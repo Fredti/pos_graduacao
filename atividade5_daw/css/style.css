@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+*{ 
+	font-family: Arial, Helvetica, sans-serif;
+	padding:0;
+}
+a{
+	text-decoration:none;
+	outline:none;
+}
+button{
+	cursor:pointer;
+}
+input:hover{
+	border:solid thin #666;
+}
+input:focus{
+	border:solid thin #666;
+}
+select{
+	height:32px;
+	border:solid thin #CCC;
+	margin-bottom:7px;
+	padding-left:5px;
+	font-size:12px;
+}
+select:hover{
+	border:solid thin #666;
+}
+select:focus{
+	border:solid thin #666;
+}
+textarea:hover{
+	border:solid thin #666;
+}
+textarea:focus{
+	border:solid thin #666;
+}
+#sessao_login{
+	width:750px;
+	position:absolute;
+	left:50%;
+	margin-left:-375px;
+	margin-top:3em;
+}
+#sessao_login ul{
+	background-color:#16A085;
+	padding:0;
+	width:22em;
+	height:30em;
+	list-style:none;
+	border:solid thin #FFF;
+	float:left;
+}
+#sessao_login ul li{
+	margin:10px 0 0 17px;
+	float:left;
+}
+#sessao_login ul figure{
+	padding:0;
+	margin:0;
+}
+#sessao_login ul figure > figcaption{
+	width:100%;
+	text-align:center;
+	color:#333;
+	font-weight:bold;
+	font-size:10px;
+}
+#sessao_login ul figure > img{
+	width:50px;
+	height:50px;
+}
+#apresentacao{
+	color:#FFF;
+	font-size:12px;
+	line-height:18px;
+	border-top:solid thin #45B39D;
+	width:93%;
+	padding-top:5px;
+}
+#sessao_login form{
+	width:320px;
+	float:right;
+}
+#sessao_login form figure{
+	text-align:center;
+}
+#sessao_login form > input{
+	width:300px;
+	height:32px;
+	border:solid thin #CCC;
+	margin-bottom:7px;
+	padding-left:5px;
+}
+#sessao_login form input[type=checkbox]{
+	float:left;
+}
+#sessao_login form label{
+	font-size:12px;
+	color:#333;
+	float:left;
+	margin:3px 0 0 3px;
+	width:250px;
+}
+#sessao_login form > button{
+	background-color:#16A085;
+	border:none;
+	padding:7px 10px;
+	color:#FFF;
+	font-size:12px;
+	margin:1em 1em 0 -1.3em;
+}
+#sessao_login form a{
+	font-size:12px;
+	color:#333;
+}
+#sessao_login form a:hover{
+	text-decoration:underline;
+}
+.alerta{
+	
+}
